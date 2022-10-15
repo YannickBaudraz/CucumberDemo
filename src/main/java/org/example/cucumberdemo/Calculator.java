@@ -13,6 +13,6 @@ public class Calculator {
     }
 
     public int add(List<Integer> numbers) {
-        return 0;
+        return numbers.stream().reduce(0, Integer::sum);
     }
 }
