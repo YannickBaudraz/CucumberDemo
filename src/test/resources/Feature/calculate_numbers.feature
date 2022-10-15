@@ -1,7 +1,7 @@
 Feature: Calculate numbers
   I want to calculate numbers
 
-  Background:
+  Background: Given a calculator
     Given I have a calculator
 
   Scenario Outline: Addition
